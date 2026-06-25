@@ -5,7 +5,7 @@
 
 This project presents the modeling and simulation of a Si/SiGe heterojunction Line Tunnel Field-Effect Transistor (L-TFET) using Synopsys Sentaurus TCAD.
 
-The device geometry and doping profile were implemented using parameters reported in published literature. The objective was to develop a functional TCAD model of a heterojunction Line TFET and study its electrical characteristics and tunneling behavior through numerical simulation.
+The device geometry and doping profile were implemented using parameters reported in published literature.The objective of this project was to develop a functional TCAD model of a Si/SiGe heterojunction Line TFET and investigate its operation through transfer-characteristic simulations, energy-band analysis, and tunneling-related carrier transport.
 
 ## Device Description
 
@@ -16,7 +16,7 @@ The modeled device consists of:
 * Silicon drain region
 * Thin epitaxial tunneling layer
 * HfO₂ gate dielectric
-* Double-gate Line TFET architecture
+* Single-gate Line TFET architecture
 
 The heterojunction between SiGe and Si enhances carrier tunneling by reducing the effective tunneling barrier, enabling lower-voltage device operation compared to conventional MOSFET structures.
 
@@ -26,12 +26,11 @@ The simulation was performed using Synopsys Sentaurus TCAD.
 
 ### Workflow
 
-1. Device geometry construction
-2. Doping profile implementation
-3. Mesh generation
-4. Physics model configuration
-5. DC bias simulation
-6. Extraction of electrical characteristics
+1. Built a Si/SiGe heterojunction Line TFET structure using SDE.
+2. Defined material properties and doping concentrations based on published literature.
+3. Configured tunneling and carrier transport models.
+4. Simulated the device under varying gate bias conditions.
+5. Analyzed transfer characteristics, energy-band profiles, and tunneling behavior using SVISUAL.
 
 ### Physics Models
 
@@ -98,19 +97,10 @@ Spatial distributions of tunneling-related quantities were analyzed to identify 
 * Synopsys Sentaurus Device
 * Synopsys Sentaurus Visual
 
-## Repository Structure
-
-```text
-.
-├── README.md
-└── results/
-    ├── device_structure.png
-    ├── transfer_curve.png
-    ├── band_diagram.png
-    ├── electric_field.png
-    └── tunneling_contour.png
-```
-
 ## Reference
 
 Device dimensions and doping parameters were adapted from published literature on Si/SiGe heterojunction Line TFETs. This repository contains an independent TCAD implementation and analysis of the device structure.
+S. Panwar, S. Srivastava, M. Shashidhara and A. Acharya, "Performance Evaluation of High-κ Dielectric Ferro-Spacer Engineered Si/SiGe Hetero-Junction Line TFETs: A TCAD Approach," in IEEE Transactions on Dielectrics and Electrical Insulation, vol. 30, no. 3, pp. 1066-1071, June 2023, doi: 10.1109/TDEI.2023.3266413.
+keywords: {Logic gates;Tunneling;Performance evaluation;Junctions;Semiconductor process modeling;TFETs;Epitaxial layers;Band-to-band tunneling (BTBT);ferroelectric (FE) spacer;high-κ dielectrics;line-tunnel field-effect transistor (L-TFET);remanent polarization;saturation polarization;technology computer-aided design (TCAD)},
+
+
