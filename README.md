@@ -100,6 +100,7 @@ Spatial distributions of tunneling-related quantities were analyzed to identify 
 ## Reference
 
 Device dimensions and doping parameters were adapted from published literature on Si/SiGe heterojunction Line TFETs. This repository contains an independent TCAD implementation and analysis of the device structure.
+<br>
 S. Panwar, S. Srivastava, M. Shashidhara and A. Acharya, "Performance Evaluation of High-κ Dielectric Ferro-Spacer Engineered Si/SiGe Hetero-Junction Line TFETs: A TCAD Approach," in IEEE Transactions on Dielectrics and Electrical Insulation, vol. 30, no. 3, pp. 1066-1071, June 2023, doi: 10.1109/TDEI.2023.3266413.
 
 
