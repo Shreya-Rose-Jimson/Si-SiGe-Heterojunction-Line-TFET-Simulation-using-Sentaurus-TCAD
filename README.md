@@ -1,4 +1,4 @@
-# Si-SiGe-Heterojunction-Line-TFET-Modeling-using-Sentaurus-TCAD
+# Si-SiGe-Heterojunction-Line-TFET-Modelling-using-Sentaurus-TCAD
 
 
 ## Overview
