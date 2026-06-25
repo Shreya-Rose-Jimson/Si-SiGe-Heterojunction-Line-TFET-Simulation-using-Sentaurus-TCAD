@@ -47,15 +47,23 @@ The simulation setup included:
 
 ### Device Structure
 
-![Device Structure](results/device_structure.png)
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/d04cf510-5c8c-408a-9985-a89124c9046a" />
+
 
 The figure above shows the simulated Si/SiGe heterojunction Line TFET geometry used in Sentaurus TCAD.
 
 ---
+### Meshing Structure
 
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/abae2449-6716-4d86-89cc-764fe71abdb0" />
+
+
+The figure above shows the meshed created in the simulated Si/SiGe heterojunction Line TFET geometry used in Sentaurus TCAD.
+
+---
 ### Transfer Characteristics (Id–Vg)
 
-![Transfer Characteristics](results/transfer_curve.png)
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/d05e1078-5200-458f-8113-61c273fa926b" />
 
 The transfer characteristics were obtained by sweeping the gate voltage while maintaining a fixed drain bias. The results demonstrate the switching behavior of the Line TFET and the increase in drain current with increasing gate voltage.
 
@@ -63,15 +71,15 @@ The transfer characteristics were obtained by sweeping the gate voltage while ma
 
 ### Band Diagram
 
-![Band Diagram](results/band_diagram.png)
 
 The energy band diagram illustrates the conduction band, valence band, and quasi-Fermi levels across the device under bias conditions. Band bending near the heterojunction region enables carrier tunneling, which forms the basis of TFET operation.
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/5957f2ce-1dc1-4489-8876-cd3c561fbf80" />
 
 ---
 
 ### Electric Field Distribution
 
-![Electric Field Distribution](results/electric_field.png)
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/383f6e55-92d0-4712-9c12-5d4271c56695" />
 
 The electric field profile highlights regions of strong field concentration near the tunneling junction, which directly influence carrier tunneling probability and device performance.
 
